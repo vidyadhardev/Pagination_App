@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 // // Connect to MongoDB using Mongoose for mongodb Atlas
-// const uri = "mongodb+srv://vidyadhar9076944738:X16XcVoo5GizPILK@cluster0.lkg2j99.mongodb.net/mernCrud";
+// const uri = " "; //Enter here mongodb uri
 // mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
 //   .then(() => {
 //     console.log("Connected successfully to MongoDB Atlas");
