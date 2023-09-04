@@ -1,0 +1,79 @@
+/* Responsive styles for the form card */
+.form-card {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Responsive styles for the form inputs */
+  .form-control {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  /* Responsive styles for the form buttons */
+  .btn {
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive styles for the form-check input */
+  .form-check-input {
+    margin-right: 5px;
+  }
+  
+  /* Responsive styles for the form-check label */
+  .form-check-label {
+    margin-right: 20px;
+  }
+
+  /* Responsive styles for the form card */
+.form-card {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Responsive styles for the form inputs */
+  .form-control {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  /* Responsive styles for the form buttons */
+  .btn {
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive styles for the form-check input */
+  .form-check-input {
+    margin-right: 5px;
+  }
+  
+  /* Responsive styles for the form-check label */
+  .form-check-label {
+    margin-right: 20px;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .form-card {
+      max-width: 90%;
+      padding: 10px;
+    }
+  
+    .btn {
+      margin-right: 5px;
+      margin-bottom: 10px;
+      width: 100%; /* Buttons take up full width on smaller screens */
+    }
+  
+    /* Adjust form-check label margin for smaller screens */
+    .form-check-label {
+      margin-right: 10px;
+    }
+  }
+  

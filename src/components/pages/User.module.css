@@ -1,0 +1,32 @@
+/* Custom styles for the responsive User component */
+.container-fluid {
+    padding: 20px;
+  }
+  
+  .table-body {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive styles for the table */
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  /* Responsive styles for the table on smaller screens */
+  @media screen and (max-width: 768px) {
+    .table-responsive {
+      overflow-x: hidden;
+    }
+  }
+/* Responsive styles for buttons on smaller screens */
+.btn-primary,
+.btn-danger {
+  width: 100%;
+  margin-bottom: 10px;
+}
+  
